@@ -83,7 +83,6 @@ which tell the docker to igonre files , so file like node_modules does not need 
 
 ## Step-7:
 ## Don't want to publish image  
-------------
 if you don't want to publish your image on the docker hub then just run this command 
 
 ```ruby
