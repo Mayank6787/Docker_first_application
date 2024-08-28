@@ -132,6 +132,8 @@ and a container runing on your image
 ![Build-photo](assets/ContainerInDoker.png)
 <br/>
 has the code files or not then in the terminal run this command 
+![Build-photo](assets/ContainerInTerminal.png)
+
 
 <br/> 
 ## Here is the photo reference of this container !!! 
