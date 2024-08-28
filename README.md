@@ -105,7 +105,8 @@ Then open your terminal and run this command to see the application running !!!
 ```ruby
 docker run -it -p 8000:8000 [image_name] 
 ```
-
+## Here is the photo refernce of this command in terminal -> 
+![Build-photo](assets/FinalRun.png)
 
 Then open [localhost:8000] on your laptop or computer to see this message. 
 
