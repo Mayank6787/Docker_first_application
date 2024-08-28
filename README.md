@@ -2,13 +2,13 @@
 
 ## Step-1:
 Create a node application in your repective project folder using command 
-```light
+```ruby
 npm init -y
 ```
 
 ## Step-2: 
 Run this command
-```node
+```ruby
 npm install 
 ```
 
@@ -16,7 +16,7 @@ npm install
 ## Step-3:
 Install express by running this command 
 
-```node
+```ruby
 npm i express 
 ```
 
@@ -29,7 +29,7 @@ Definition: A Dockerfile is a text document that contains all the commands a use
 Insert the given command below in your docker file. 
 -----------
 
-```node
+```ruby
 #Operating system for our application
 FROM ubuntu
 
@@ -85,7 +85,7 @@ which tell the docker to igonre files , so file like node_modules does not need 
 ## i) Don't want to publish image  
 if you don't want to publish your image on the docker hub then just run this command 
 
-```node
+```ruby
 docker build -t [image_name] 
 ```
 
@@ -101,7 +101,7 @@ also save this changes then again run the above command docker build -t [image_n
 Then open your terminal and run this command to see the application running !!! 
 
 
-```node
+```ruby
 docker run -it -p 8000:8000 [image_name] 
 ```
 ## Here is the photo refernce of this command in terminal -> 
@@ -120,7 +120,7 @@ Then open [localhost:8000] on your laptop or computer to see this message.
 Go to docker hub [https://www.docker.com/products/docker-hub/] create your own account and then create a repository (I hope you have created your repository and if you don't know how to then watch youtube its a 2 min work ) 
 So next what ever be your docker hub repository name,  build your project on top of that  enter below command into your terminal !!! 
 
-```node
+```ruby
 docker build -t [docker_hub_id/name][image_name]
 ```
 
