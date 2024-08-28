@@ -14,8 +14,6 @@ Step-3: Install express by running this command
 npm i express 
 ```
 
-
-
 Step-4: Create main.js and Go to my application in github and copy the main.js file code to your main.js
 
 Step-5: Create a file called as "Dockerfile":
@@ -24,8 +22,8 @@ Definition: A Dockerfile is a text document that contains all the commands a use
 Insert the given command below in your docker file. 
 -----------
 
-//code
-Operating system for our application
+```ruby
+ Operating system for our application
 FROM ubuntu
 
 # Update 
@@ -60,8 +58,7 @@ COPY main.js main.js
 
 # 
 ENTRYPOINT [ "node", "main.js" ]
-
-//end code 
+```
 
 
 
@@ -80,7 +77,10 @@ Step-7:
 ------------
 if you don't want to publish your image on the docker hub then just run this command 
 
+```ruby
 docker build -t [image_name] 
+```
+
 
 image_name -> anything of your choice 
 NOTE: Running for the first time it will take some time so have patience 😄
@@ -90,7 +90,11 @@ also save this changes then again run the above command docker build -t [image_n
 
 Then open your terminal and run this command to see the application running !!! 
 
+
+```ruby
 docker run -it -p 8000:8000 [image_name] 
+```
+
 
 Then open [localhost:8000] on your laptop or computer to see this message. 
 
