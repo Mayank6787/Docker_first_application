@@ -92,6 +92,7 @@ docker build -t [image_name]
 
 ## Here is the photo refernce of this command in terminal -> 
 ![Build-photo](assets/BuildImage.png)
+<br/>
 image_name -> anything of your choice 
 NOTE: Running for the first time it will take some time so have patience 😄
 
