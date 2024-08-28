@@ -3,10 +3,17 @@
 Step-1: Create a node application in your repective project folder using command 
 
 Step-2: Run this command
+```ruby
 npm install 
+```
+
 
 Step-3: Install express by running this command 
+
+```ruby
 npm i express 
+```
+
 
 
 Step-4: Create main.js and Go to my application in github and copy the main.js file code to your main.js
@@ -18,7 +25,7 @@ Insert the given command below in your docker file.
 -----------
 
 //code
-# Operating system for our application
+Operating system for our application
 FROM ubuntu
 
 # Update 
