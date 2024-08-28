@@ -30,7 +30,7 @@ Insert the given command below in your docker file.
 -----------
 
 ```ruby
- Operating system for our application
+#Operating system for our application
 FROM ubuntu
 
 # Update 
