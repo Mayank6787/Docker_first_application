@@ -124,6 +124,20 @@ So next what ever be your docker hub repository name,  build your project on top
 docker build -t [docker_hub_id/name][image_name]
 ```
 
+## Step-8: 
+If you want to see if the the image 
+![Build-photo](assets/ImageInDocker.png)
+<br/>
+and a container runing on your image 
+![Build-photo](assets/ContainerInDoker.png)
+<br/>
+has the code files or not then in the terminal run this command 
+
+<br/> 
+## Here is the photo reference of this container !!! 
+![Build-photo](assets/ContainerInTerminal.png)
+
+
 "Thank you 🌻"
 
 
