@@ -9,11 +9,7 @@ Step-3: Install express by running this command
 npm i express 
 
 
-
-Step-4: Create main.js and Go to my application in github and copy the main.js file code to your main.js 
-
-
-
+Step-4: Create main.js and Go to my application in github and copy the main.js file code to your main.js
 
 Step-5: Create a file called as "Dockerfile":
 -----------
