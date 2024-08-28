@@ -109,7 +109,7 @@ Then open [localhost:8000] on your laptop or computer to see this message.
 Go to docker hub [https://www.docker.com/products/docker-hub/] create your own account and then create a repository (I hope you have created your repository and if you don't know how to then watch youtube its a 2 min work ) 
 So next what ever be your docker hub repository name,  build your project on top of that  enter below command into your terminal !!! 
 
-```
+```ruby
 docker build -t [docker_hub_id/name][image_name]
 ```
 
