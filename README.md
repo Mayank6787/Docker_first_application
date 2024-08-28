@@ -69,7 +69,7 @@ ENTRYPOINT [ "node", "main.js" ]
 
 
 
-Step-6: As i have mentioned above the COPY main.js code you need to create a .dockerignore file , yes this file is same as .gitignore 
+## Step-6: As i have mentioned above the COPY main.js code you need to create a .dockerignore file , yes this file is same as .gitignore 
 which tell the docker to igonre files , so file like node_modules does not need to be included in your docker image. 
 
 --Because we are using RUN npm install command in the Dockerfile , so lets move on 
@@ -77,9 +77,11 @@ which tell the docker to igonre files , so file like node_modules does not need 
 !!!! NOTE: In the my application there is a file called as "docker-compose.yml" no need to create that file now we will learn the docker-compose in another repository !!!!
 
 
+## This is the folder final folder structure -> 
 
 
-Step-7:
+
+## Step-7:
 ## Don't want to publish image  
 ------------
 if you don't want to publish your image on the docker hub then just run this command 
@@ -88,7 +90,8 @@ if you don't want to publish your image on the docker hub then just run this com
 docker build -t [image_name] 
 ```
 
-
+## Here is the photo refernce of this command in terminal -> 
+![Build-photo](assets/BuildImage.png)
 image_name -> anything of your choice 
 NOTE: Running for the first time it will take some time so have patience 😄
 
