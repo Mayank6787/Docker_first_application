@@ -1,20 +1,24 @@
 ## 🚀🚀 Dockerization of node js application 🚀🚀
 
-Step-1: Create a node application in your repective project folder using command 
+## Step-1:
+Create a node application in your repective project folder using command 
 
-Step-2: Run this command
+## Step-2: 
+Run this command
 ```ruby
 npm install 
 ```
 
 
-Step-3: Install express by running this command 
+## Step-3:
+Install express by running this command 
 
 ```ruby
 npm i express 
 ```
 
-Step-4: Create main.js and Go to my application in github and copy the main.js file code to your main.js
+##Step-4: 
+Create main.js and Go to my application in github and copy the main.js file code to your main.js
 
 Step-5: Create a file called as "Dockerfile":
 -----------
@@ -112,5 +116,7 @@ So next what ever be your docker hub repository name,  build your project on top
 ```ruby
 docker build -t [docker_hub_id/name][image_name]
 ```
+
+"Thank you 🌻"
 
 
