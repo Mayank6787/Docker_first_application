@@ -2,6 +2,9 @@
 
 ## Step-1:
 Create a node application in your repective project folder using command 
+```ruby
+npm init -y
+```
 
 ## Step-2: 
 Run this command
