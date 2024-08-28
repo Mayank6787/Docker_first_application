@@ -78,7 +78,7 @@ which tell the docker to igonre files , so file like node_modules does not need 
 
 
 ## This is the folder final folder structure -> 
-![Build-photo](assets/FileSturcture.png)
+![Build-photo](assets/FileStructure.png)
 
 
 ## Step-7:
