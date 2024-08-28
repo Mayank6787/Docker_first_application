@@ -2,7 +2,7 @@
 
 ## Step-1:
 Create a node application in your repective project folder using command 
-```json
+```node
 npm init -y
 ```
 
